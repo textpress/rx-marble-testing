@@ -4,7 +4,6 @@
   "main": "lib/marble-testing.js",
   "repository": "github:textpress/rx-marble-testing",
   "license": "MIT",
-  "private": false,
   "scripts": {
     "test": "jest",
     "flow": "flow check",
