@@ -1,6 +1,6 @@
 {
   "name": "@textpress/rx-marble-testing",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/marble-testing.js",
   "repository": "github:textpress/rx-marble-testing",
   "license": "MIT",
