@@ -2,6 +2,8 @@
 import visualizer from "../marble-ascii-visualizer";
 import { TestScheduler } from "rxjs/testing/TestScheduler";
 
+import type { MarbleEvent } from "../marble-ascii-visualizer";
+
 describe( "marble-ascii-visualizer", () => {
 
     function testEvents( description, expected ) {

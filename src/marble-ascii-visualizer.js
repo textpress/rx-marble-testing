@@ -2,6 +2,18 @@
 import _ from "lodash";
 import { SubscriptionLog } from "rxjs/testing/SubscriptionLog";
 
+export type MarbleNotification = {
+    error?: string,
+    hasValue: boolean,
+    kind: string,
+    value: any
+};
+
+export type MarbleEvent = {
+    frame: number,
+    notification: MarbleNotification
+};
+
 function eventToFrames( event: MarbleEvent ) {
     const notification = event.notification;
     let action = "?";
